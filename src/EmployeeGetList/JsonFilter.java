@@ -44,7 +44,7 @@ public class JsonFilter extends AbstractMediator {
 
     public static void main(String[] args) throws FileNotFoundException, ParseException {
 
-//        System.out.println(listMap_to_json_string(EMPLOYEE_FILE, ID_FILE));
+        System.out.println(listMap_to_json_string(EMPLOYEE_FILE, ID_FILE));
     }
 
     private static List<Map<String, Object>> getEmployeeFilter(String employeePath, String idPath)
